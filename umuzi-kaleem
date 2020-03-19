@@ -93,6 +93,111 @@ your knowledge and experience.
 The End
 
 
+TASK 4:
+
+1. recruit@recruit-Mecer-X102:~/Desktop$ nano locate_find.sh 
+recruit@recruit-Mecer-X102:~/Desktop$ chmod 0700 locate_find.sh 
+recruit@recruit-Mecer-X102:~/Desktop$ ./locate_find.sh      
+/home/recruit/Desktop/locate_umuzi.sh
+/home/recruit/Desktop/umuzi
+/home/recruit/Desktop/umuzi.pdf
+
+2. recruit@recruit-Mecer-X102:~/Desktop$ nano locate_umuzi.sh 
+recruit@recruit-Mecer-X102:~/Desktop$ chmod 0700 locate_umuzi.sh 
+recruit@recruit-Mecer-X102:~/Desktop$ ./locate_umuzi.sh 
+recruit@recruit-Mecer-X102:~/Desktop$ cat search_result.md 
+/home/recruit/Desktop/locate_umuzi.sh
+/home/recruit/Desktop/umuzi
+/home/recruit/Desktop/umuzi.pdf
+/home/recruit/Desktop/Beginner-linux-challenges/umuzi-kaleem
+/home/recruit/Desktop/Beginner-linux-challenges/TASK4/locate_umuzi.sh
+/home/recruit/Desktop/Beginner-linux-challenges/Task3/umuzi.md
+/home/recruit/Desktop/umuzi/.git
+
+
+TASK 5:
+
+1. recruit@recruit-Mecer-X102:~/Documents$ touch pad.md
+recruit@recruit-Mecer-X102:~/Documents$ ls
+pad.md
+
+2. recruit@recruit-Mecer-X102:~/Documents$ cd ../Desktop/
+recruit@recruit-Mecer-X102:~/Desktop$ mkdir work
+
+3. recruit@recruit-Mecer-X102:~/Desktop/work$ cp /home/recruit/Documents/pad.md pad_copy.md
+recruit@recruit-Mecer-X102:~/Desktop/work$ ls
+pad_copy.md
+
+4. recruit@recruit-Mecer-X102:~/Desktop/work$ locate updatedb
+/etc/updatedb.conf
+/etc/alternatives/updatedb
+/etc/alternatives/updatedb.8.gz
+/usr/bin/updatedb
+/usr/bin/updatedb.mlocate
+
+5. recruit@recruit-Mecer-X102:~/Desktop/work$ cd -
+/home/recruit/Desktop
+recruit@recruit-Mecer-X102:~/Desktop$ 
+
+6. recruit@recruit-Mecer-X102:~/Desktop$ locate pad_copy.md
+/home/recruit/Desktop/Beginner-linux-challenges/Task5/pad_copy.md
+/home/recruit/Desktop/umuzi/task5/pad_copy.md
+
+
+TASK 6:
+
+1. recruit@recruit-Mecer-X102:~/Desktop$ nano task6-1.sh 
+recruit@recruit-Mecer-X102:~/Desktop$ chmod 0700 task6-1.sh 
+recruit@recruit-Mecer-X102:~/Desktop$ ./task6-1.sh 
+./kaleem/umuzi.pdf
+./kaleem/MUB.pdf
+./kaleem/information.pdf
+./kaleem/files.pdf
+./kaleem/docs.pdf
+
+2. 
+recruit@recruit-Mecer-X102:~/Desktop$ nano task6-2.sh 
+recruit@recruit-Mecer-X102:~/Desktop$ chmod 0700 task6-2.sh 
+recruit@recruit-Mecer-X102:~/Desktop$ rm results6-2.md 
+recruit@recruit-Mecer-X102:~/Desktop$ chmod 0700 task6-2.sh 
+recruit@recruit-Mecer-X102:~/Desktop$ ./task6-2.sh 
+
+Beginner-linux-challenges  code.desktop  google-chrome.desktop  kaleem  my_files  results6-2.md  task6-1.sh  task6-2.sh  umuzi  work  workspace
+recruit@recruit-Mecer-X102:~/Desktop$ cat results6-2.md 
+/home/recruit/Desktop/kaleem/MUB.pdf
+/home/recruit/Desktop/kaleem/docs.pdf
+/home/recruit/Desktop/kaleem/files.pdf
+/home/recruit/Desktop/kaleem/information.pdf
+/home/recruit/Desktop/kaleem/umuzi.pdf
+
+3. recruit@recruit-Mecer-X102:~/Desktop$ find . -mtime -1 -print
+.
+./kaleem
+./kaleem/locate_find.sh
+./kaleem/umuzi.pdf
+./kaleem/locate_umuzi.sh
+./kaleem/MUB.pdf
+./kaleem/pad.md
+./kaleem/information.pdf
+./kaleem/files.pdf
+./kaleem/search_result.md
+./kaleem/docs.pdf
+
+
+TASK 7:
+
+1. recruit@recruit-Mecer-X102:~/Desktop$ nano my_bio.md
+
+2. recruit@recruit-Mecer-X102:~/Desktop$ ls
+Beginner-linux-challenges  code.desktop  google-chrome.desktop  kaleem  my_bio.md
+
+3. recruit@recruit-Mecer-X102:~/Desktop/my_files$ cp /home/recruit/Desktop/my_bio.md my_bio.md 
+recruit@recruit-Mecer-X102:~/Desktop/my_files$ ls
+my_bio.md
+recruit@recruit-Mecer-X102:~/Desktop/my_files$ 
+
+
+
 
 
 
